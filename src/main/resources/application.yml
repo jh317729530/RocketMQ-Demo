@@ -1,0 +1,10 @@
+apache:
+  rocketmq:
+    # 消费者的组名
+    consumer:
+      PushConsumer: PushConsumer
+    # 生产者的组名
+    producer:
+      producerGroup: Producer
+    # namesrv地址
+    namesrvAddr: localhost:9876
